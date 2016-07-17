@@ -28,3 +28,7 @@
 >On the web browser open
 
 127.0.0.1:8090/
+
+>Publically Hosted
+
+http://ec2-54-191-108-28.us-west-2.compute.amazonaws.com:8090/
