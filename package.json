@@ -1,0 +1,23 @@
+{
+  "name": "relic_sentry",
+  "version": "1.0.0",
+  "description": "Integrating NewRelic and sentry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohit ritolia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mkdirp": "0.5.1",
+    "newrelic": "1.28.3",
+    "request": "2.73.0",
+    "winston": "2.2.0",
+    "winston-sentry": "0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "3.0.1"
+  }
+}

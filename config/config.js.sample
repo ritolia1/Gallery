@@ -1,0 +1,13 @@
+exports.config = {
+    networkCallTimeout : 30000,
+    serverPort : '8090',
+    ApiKey : 'getty-Api-Key'
+};
+
+exports.newrelic = {
+    appName: 'gallery',
+    key: 'new-relic-key'
+};
+
+exports.log_path = './log/gallery/';
+exports.sentryDsn = 'udp://a:b@localhost:12345/c';
